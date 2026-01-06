@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="lt" className={spaceGrotesk.className}>
-      <body>
+      <body className="bg-black">
         <Header />
         <main>{children}</main>
         <Footer />
