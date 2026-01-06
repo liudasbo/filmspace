@@ -1,26 +1,17 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+h1 {
+  @apply uppercase font-light sm:text-6xl text-[42px] leading-11 sm:leading-tight;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+h2 {
+  @apply text-5xl uppercase font-light text-white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.heading-container {
+  @apply lg:w-2/3 pt-32 flex flex-col gap-4 pb-16 lg:px-36 sm:px-12 px-4;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.text-muted {
+  @apply text-[#BEBEBE];
 }
