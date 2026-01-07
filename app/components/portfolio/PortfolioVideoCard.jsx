@@ -74,7 +74,7 @@ export default function PortfolioVideoCard({
       <video
         ref={videoRef}
         src={videoSrc}
-        className={`w-full h-full object-cover absolute inset-0 transition-opacity duration-300 ${
+        className={`pointer-events-none w-full h-full object-cover absolute inset-0 transition-opacity duration-300 ${
           isHovering ? "opacity-100" : "opacity-0"
         }`}
         muted
