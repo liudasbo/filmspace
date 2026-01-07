@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -25,11 +24,12 @@ export default function HeroSection() {
               <span className="font-bold">Profesionalios</span> video{" "}
               <span className="font-bold">filmavimo</span> paslaugos
             </h1>
-            <Link href="/#portfolio">
-              <button className="mt-6 px-6 py-3 border hover:bg-white hover:text-black hover:border-white font-medium">
-                Peržiūrėti portfolio
-              </button>
-            </Link>
+            <a
+              href="#portfolio"
+              className="mt-6 px-6 py-3 border hover:bg-white hover:text-black hover:border-white font-medium cursor-pointer inline-block"
+            >
+              Peržiūrėti portfolio
+            </a>
           </div>
         </div>
       </div>

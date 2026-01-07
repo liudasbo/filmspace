@@ -8,7 +8,9 @@ export default function FooterContactForm() {
 
         <textarea placeholder="Žinutė..." rows={4} className="h-18"></textarea>
       </form>
-      <button type="submit">Siųsti</button>
+      <button type="submit" className="main-btn mt-8">
+        Siųsti
+      </button>
     </div>
   );
 }

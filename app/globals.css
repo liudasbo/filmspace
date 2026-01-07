@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 h1 {
-  @apply uppercase font-light sm:text-6xl text-[42px] leading-11 sm:leading-tight text-white;
+  @apply uppercase sm:text-6xl text-[42px] leading-11 sm:leading-tight text-white;
 }
 
 h2 {
@@ -16,6 +16,10 @@ h2 {
   @apply text-[#BEBEBE];
 }
 
+.main-btn {
+  @apply border py-2 px-4 hover:bg-white hover:text-black cursor-pointer;
+}
+
 footer {
   @apply lg:px-32 sm:px-12 px-14 py-28 bg-black;
 }
@@ -26,10 +30,6 @@ input {
 
 textarea {
   @apply bg-black border-b border-gray-500 outline-none;
-}
-
-button {
-  @apply bg-transparent text-white px-6 py-2 border mt-8 cursor-pointer hover:bg-white hover:text-black font-medium;
 }
 
 html {

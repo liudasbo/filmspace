@@ -7,7 +7,7 @@ export default function VideoPlayer({ videoId, thumbnail }) {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <div className="relative w-full aspect-video overflow-hidden bg-zinc-900 group cursor-pointer max-h-150 col-span-2">
+    <div className="relative w-full aspect-video overflow-hidden bg-zinc-900 group cursor-pointer xl:max-h-150 lg:max-h-120 md:max-h-70 sm:max-h-50 col-span-2">
       {!isPlaying ? (
         <div
           className="relative w-full h-full"

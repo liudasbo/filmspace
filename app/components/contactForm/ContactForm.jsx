@@ -11,7 +11,9 @@ export default function ContactForm() {
         <textarea placeholder="Žinutė..." className="h-40"></textarea>
       </form>
 
-      <button type="submit">Siųsti</button>
+      <button className="main-btn mt-8" type="submit">
+        Siųsti
+      </button>
 
       <div className="flex gap-4 mt-18 text-xl">
         <a href="mailto:hello@filmspace.lt" className="hover:underline">
