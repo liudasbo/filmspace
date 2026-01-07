@@ -4,7 +4,10 @@ import ContactForm from "../contactForm/ContactForm";
 
 export default function AboutMe() {
   return (
-    <div className="bg-black grid lg:grid-cols-4 lg:px-36 sm:px-12 px-4 lg:gap-24 gap-12">
+    <div
+      className="bg-black grid lg:grid-cols-4 lg:px-36 sm:px-12 px-4 lg:gap-24 gap-12"
+      id="about"
+    >
       <div className="sm:col-span-2 flex flex-col justify-center gap-20">
         <div className="flex flex-col gap-8">
           <h2>
@@ -41,7 +44,7 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div>
+        <div id="contact">
           <h2 className="pb-8">
             <span className="font-bold">Susisiekime</span>
           </h2>
@@ -51,7 +54,7 @@ export default function AboutMe() {
 
       <div className="flex flex-col col-span-2">
         <div className="flex flex-col items-center justify-center">
-          <div className="relative rounded-full overflow-hidden aspect-square w-72 -ml-15 flex items-center justify-center">
+          <div className="relative rounded-full overflow-hidden aspect-square w-92 -ml-15 flex items-center justify-center">
             <Image
               src="/images/benas-scaled.jpg"
               fill

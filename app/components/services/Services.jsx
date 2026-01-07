@@ -4,35 +4,35 @@ import VideoCard from "./VideoCard";
 const videos = [
   {
     id: 1,
-    src: "/videos/Private-events-preview-0p5MB.webm",
+    src: "/videos/Aftermovies-NEW_optimized.webm",
     title: "Aftermovie ir renginių filmavimas",
     description:
       "Dinamiški renginių video, konferencijų reportažai ir festivalių aftermovie. Pagauname geriausias emocijas ir atmosferą.",
   },
   {
     id: 2,
-    src: "/videos/video-2.webm",
+    src: "/videos/Private-events-preview-0p5MB.webm",
     title: "Privačių švenčių filmavimas",
     description:
       "Jautrus ir estetiškas vestuvių filmavimas, krikštynos bei asmeninės šventės. Kuriame prisiminimus, kurie išlieka visam gyvenimui.",
   },
   {
     id: 3,
-    src: "/videos/video-3.webm",
+    src: "/videos/TV-shows-NEW_optimized.webm",
     title: "TV laidų filmavimas",
     description:
       "Profesionali TV laidų gamyba, reportažų rengimas ir techninis aptarnavimas televiziniams projektams.",
   },
   {
     id: 4,
-    src: "/videos/video-4.webm",
+    src: "/videos/Commercial-films-NEW_optimized.webm",
     title: "Reklaminių video filmavimas",
     description:
       "Efektyvūs reklaminiai klipai verslui, socialiniams tinklams (Reels/TikTok) ir produktų pristatymai. Didinkite savo pardavimus vaizdu.",
   },
   {
     id: 5,
-    src: "/videos/video-5.webm",
+    src: "/videos/Documentaries-NEW_optimized.webm",
     title: "Dokumentinių filmų filmavimas",
     description:
       "Išsamūs dokumentiniai pasakojimai, interviu filmavimas ir istorijų kūrimas (storytelling) su kinematografine kokybe.",
@@ -48,7 +48,7 @@ const videos = [
 
 export default function Services() {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="services">
       <div className="heading-container">
         <h2 id="services">
           <span className="font-bold">VIDEO</span> KŪRIMO{" "}

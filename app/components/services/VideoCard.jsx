@@ -16,7 +16,7 @@ export default function VideoCard({ src, title, description }) {
         loop
         muted
         playsInline
-        className="w-full h-full object-cover sm:p-4"
+        className="w-full h-full object-cover sm:p-4 p-2"
       >
         <source src={src} type="video/webm" />
         Jūsų naršyklė nepalaiko vaizdo įrašų.

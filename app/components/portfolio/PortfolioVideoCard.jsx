@@ -2,17 +2,21 @@
 
 import React, { useState, useRef } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function PortfolioVideoCard({
   videoSrc,
   title,
   category,
   direction = "ltr",
+  href,
 }) {
   const [isHovering, setIsHovering] = useState(false);
   const videoRef = useRef(null);
 
   const isRtl = direction === "rtl";
+
+  const router = useRouter();
 
   const handleMouseEnter = () => {
     setIsHovering(true);
@@ -34,6 +38,7 @@ export default function PortfolioVideoCard({
       className="relative w-full bg-black overflow-hidden group cursor-pointer h-90 border-t border-b border-gray-500"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={() => href && router.push(href)}
     >
       <style>{`
         @keyframes scrollLtr {

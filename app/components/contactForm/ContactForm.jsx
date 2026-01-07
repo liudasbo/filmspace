@@ -13,9 +13,13 @@ export default function ContactForm() {
 
       <button type="submit">Siųsti</button>
 
-      <div className="flex gap-4 mt-8 text-lg">
-        <p>○ hello@filmspace.lt</p>
-        <p>○ +370 630 85194</p>
+      <div className="flex gap-4 mt-18 text-xl">
+        <a href="mailto:hello@filmspace.lt" className="hover:underline">
+          ○ hello@filmspace.lt
+        </a>
+        <a href="tel:+37063085194" className="hover:underline">
+          ○ +370 630 85194
+        </a>
       </div>
     </div>
   );

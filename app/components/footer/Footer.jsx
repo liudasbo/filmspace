@@ -4,10 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import FooterContactForm from "./FooterContactForm";
 import ScrollText from "./ScrollText";
+import LogoCarousel from "../logoCarousel/LogoCarousel";
 
 export default function Footer() {
   return (
     <div>
+      <LogoCarousel />
       <footer className="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-16 text-white border-y border-gray-500">
         <div className="flex flex-col gap-8">
           <Image

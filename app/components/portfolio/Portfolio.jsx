@@ -3,9 +3,11 @@ import PortfolioVideoCard from "./PortfolioVideoCard";
 
 export default function Portfolio() {
   return (
-    <div className="bg-black">
+    <div className="bg-black" id="portfolio">
       <div className="heading-container">
-        <h2>ATLIKTI VIDEO PROJEKTAI</h2>
+        <h2>
+          ATLIKTI <span className="font-bold">VIDEO</span> PROJEKTAI
+        </h2>
         <p className="text-muted">
           Mano, kaip patyrusio video operatoriaus ir videografo, patirtis apima
           darbą su didžiausiais Lietuvos televizijos projektais bei privačiais
@@ -23,30 +25,35 @@ export default function Portfolio() {
           title="Serialas Tiltas"
           category="TV serialas"
           direction="ltr"
+          href="/portfolio-item/tiltas"
         />
         <PortfolioVideoCard
           videoSrc="/videos/tiltas-intro-optimized.mp4"
           title="Projekto pavadinimas"
           category="TV serialas"
           direction="rtl"
+          href="/portfolio-item/tiltas"
         />
         <PortfolioVideoCard
           videoSrc="/videos/tiltas-intro-optimized.mp4"
           title="Projekto pavadinimas"
           category="TV serialas"
           direction="ltr"
+          href="/portfolio-item/tiltas"
         />
         <PortfolioVideoCard
           videoSrc="/videos/tiltas-intro-optimized.mp4"
           title="Projekto pavadinimas"
           category="TV serialas"
           direction="rtl"
+          href="/portfolio-item/tiltas"
         />
         <PortfolioVideoCard
           videoSrc="/videos/tiltas-intro-optimized.mp4"
           title="Projekto pavadinimas"
           category="TV serialas"
           direction="ltr"
+          href="/portfolio-item/tiltas"
         />
       </div>
     </div>
